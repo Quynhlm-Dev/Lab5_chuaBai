@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity_Lab7_bai1">
+    
+    <ImageView
+        android:id="@+id/imglogo"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/txttextView"
+        android:text="WelCome To Android 1"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/text_size_30sp"
+        android:textStyle="bold|italic"
+        android:textColor="#2196F3"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

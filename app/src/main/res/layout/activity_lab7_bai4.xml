@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity_Lab7_bai4">
+
+    <TextView
+        android:text="FAN"
+        android:textColor="#ffffff"
+        android:background="@drawable/backgroud"
+        android:textSize="@dimen/text_size_25sp"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:id="@+id/imgQuat"
+        android:src="@drawable/quat"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFast"
+            android:text="FAST"
+            android:background="@drawable/backgroud"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnmedium"
+            android:text="MEDIUM"
+            android:background="@drawable/backgroud"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnslow"
+            android:text="SLOW"
+            android:background="@drawable/backgroud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnoff"
+        android:text="OFF"
+        android:layout_width="200dp"
+        android:background="@drawable/backgroud"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
